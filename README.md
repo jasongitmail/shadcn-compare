@@ -1,16 +1,14 @@
 # README
 
-Compares components available in:
+Compares UI components available in:
 - [shadcn](https://ui.shadcn.com/docs/components)
 - [shadcn-svelte](https://www.shadcn-svelte.com/docs/components)
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Updates are checked daily via [cron.yml](.github/workflows/cron.yml)
+Last updated: 2024-03-22T23:23:14.929Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
-Last updated: 2024-03-22T22:43:24.861Z
-
-Jump to:
+Jump to table:
 - [Shadcn](#shadcn)
 - [All](#all)
 
