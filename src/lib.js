@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 // Function to fetch HTML and extract components, now accepts a URL as a string parameter
-export async function fetchAndExtractComponents(url) {
+export async function fetchAndExtractComponents(url, regex) {
   try {
     // Fetch the HTML content from the URL
     const response = await fetch(url);
@@ -13,7 +13,7 @@ export async function fetchAndExtractComponents(url) {
     const $ = cheerio.load(body);
 
     // Select all anchor tags inside the specified section
-    const componentAnchors = $("div.pb-4:nth-of-type(2) a");
+    const componentAnchors = $(regex ? regex : "div.pb-4:nth-of-type(2) a");
 
     // Map through each anchor tag and construct an object with the name and url
     const components = componentAnchors
@@ -83,25 +83,34 @@ export function resultToMarkdownTable(arr) {
 export function updateReadme(markdown) {
   const readmePath = path.join(__dirname, "../README.md");
 
-  const currentDate = new Date().toISOString();
-
-  const updatedMarkdown = `# README
-
-Compares components available in:
-- [shadcn](https://ui.shadcn.com/docs/components)
-- [shadcn-svelte](https://www.shadcn-svelte.com/docs/components)
-
-Updates are checked daily via [cron.yml](.github/workflows/cron.yml)
-
-Last updated: ${currentDate}
-
-${markdown}`;
-
-  fs.writeFileSync(readmePath, updatedMarkdown, "utf8", (err) => {
+  fs.writeFileSync(readmePath, markdown, "utf8", (err) => {
     if (err) {
       console.error("Error writing to README.md:", err);
       return;
     }
     console.log("README.md has been updated.");
   });
+}
+
+export function markdownIntro() {
+  const currentDate = new Date().toISOString();
+
+  const md = `# README
+
+Compares components available in:
+- [shadcn](https://ui.shadcn.com/docs/components)
+- [shadcn-svelte](https://www.shadcn-svelte.com/docs/components)
+- [bits-ui](https://www.bits-ui.com/docs/components)
+- [melt-ui](https://melt-ui.com/docs/builders/accordion)
+
+Updates are checked daily via [cron.yml](.github/workflows/cron.yml)
+
+Last updated: ${currentDate}
+
+Jump to:
+- [Shadcn](#shadcn)
+- [All](#all)
+`;
+
+  return md;
 }
