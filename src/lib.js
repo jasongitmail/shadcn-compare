@@ -84,7 +84,18 @@ export function updateReadme(markdown) {
   const readmePath = path.join(__dirname, "../README.md");
 
   const currentDate = new Date().toISOString();
-  const updatedMarkdown = `## README\n\nLast updated: ${currentDate}\n\n${markdown}`;
+
+  const updatedMarkdown = `# README
+
+Compares components available in:
+- [shadcn](https://ui.shadcn.com/docs/components)
+- [shadcn-svelte](https://www.shadcn-svelte.com/docs/components)
+
+Updates are checked daily via [cron.yml](.github/workflows/cron.yml)
+
+Last updated: ${currentDate}
+
+${markdown}`;
 
   fs.writeFileSync(readmePath, updatedMarkdown, "utf8", (err) => {
     if (err) {
