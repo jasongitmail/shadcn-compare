@@ -1,4 +1,4 @@
-name: Update README
+name: cron.yml
 
 on:
   schedule:
