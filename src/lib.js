@@ -19,7 +19,7 @@ export async function fetchAndExtractComponents(url) {
     const components = componentAnchors
       .map((i, anchor) => ({
         name: $(anchor).text().replace("New", "").replace("Updated", "").trim(), // Get the text and trim whitespace
-        url: $(anchor).attr("href"), // Get the href attribute
+        url: new URL(url).origin + $(anchor).attr("href"),
       }))
       .get(); // Use .get() to convert cheerio object to a plain array
 
