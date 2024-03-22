@@ -1,0 +1,22 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run daily at 00:00 UTC
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - name: Run script to fetch data and update README.md
+        run: bun index.js
+      - name: Update README.md
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README" || echo "No changes to commit"
+          git push
