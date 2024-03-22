@@ -64,7 +64,7 @@ export function resultToMarkdownTable(arr) {
     const libUrlsCells = libUrlsKeys
       .map((key) => {
         const url = item.libUrls[key];
-        return url ? `[View](${url})` : "";
+        return url ? `[🟢](${url})` : "❌";
       })
       .join(" | ");
 
