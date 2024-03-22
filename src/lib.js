@@ -86,12 +86,6 @@ export function updateReadme(markdown) {
   const currentDate = new Date().toISOString();
   const updatedMarkdown = `## README\n\nLast updated: ${currentDate}\n\n${markdown}`;
 
-  // fs.writeFileSync(readmePath, updatedMarkdown, "utf8");
-  // console.log(
-  //   "README.md has been updated with the last updated date.",
-  //   updatedMarkdown,
-  // );
-
   fs.writeFileSync(readmePath, updatedMarkdown, "utf8", (err) => {
     if (err) {
       console.error("Error writing to README.md:", err);
