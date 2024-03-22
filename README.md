@@ -1,6 +1,6 @@
 ## README
 
-Last updated: 2024-03-22T20:02:36.758Z
+Last updated: 2024-03-22T20:34:36.678Z
 
 | Component Name | schadcn | schadcnSvelte |
 | --- | --- | --- |
