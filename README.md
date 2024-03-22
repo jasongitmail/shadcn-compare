@@ -6,7 +6,7 @@ Compares components available in:
 
 Updates are checked daily via [cron.yml](.github/workflows/cron.yml)
 
-Last updated: 2024-03-22T20:43:14.328Z
+Last updated: 2024-03-22T20:45:08.559Z
 
 | Component Name | schadcn | schadcnSvelte |
 | --- | --- | --- |
