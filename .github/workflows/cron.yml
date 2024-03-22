@@ -17,10 +17,14 @@ jobs:
       - run: bun install
       - name: Run script to fetch data and update README.md
         run: bun index.js
-      - name: Update README.md
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update README" || echo "No changes to commit"
-          git push
+      - name: Commit changes to README.md
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "README.md"
+          message: "Fetch data and update README"
+          # Determines the way the action fills missing author name and email. Three options are available:
+          # - github_actor -> UserName <UserName@users.noreply.github.com>
+          # - user_info -> Your Display Name <your-actual@email.com>
+          # - github_actions -> github-actions <email associated with the github logo>
+          # Default: github_actor
+          default_author: github_actions
