@@ -97,17 +97,15 @@ export function markdownIntro() {
 
   const md = `# README
 
-Compares components available in:
+Compares UI components available in:
 - [shadcn](https://ui.shadcn.com/docs/components)
 - [shadcn-svelte](https://www.shadcn-svelte.com/docs/components)
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Updates are checked daily via [cron.yml](.github/workflows/cron.yml)
+Last updated: ${currentDate}. Updates checked daily via [cron.yml](.github/workflows/cron.yml).
 
-Last updated: ${currentDate}
-
-Jump to:
+Jump to table:
 - [Shadcn](#shadcn)
 - [All](#all)
 `;
