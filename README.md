@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2024-06-24T00:21:52.317Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2024-06-25T00:20:14.989Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
