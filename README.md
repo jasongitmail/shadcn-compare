@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2024-07-05T00:20:32.151Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2024-07-06T00:19:46.640Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -27,6 +27,7 @@ Jump to table:
 | Calendar | [🟢](https://ui.shadcn.com/docs/components/calendar) | [🟢](https://www.shadcn-svelte.com/docs/components/calendar) |
 | Card | [🟢](https://ui.shadcn.com/docs/components/card) | [🟢](https://www.shadcn-svelte.com/docs/components/card) |
 | Carousel | [🟢](https://ui.shadcn.com/docs/components/carousel) | [🟢](https://www.shadcn-svelte.com/docs/components/carousel) |
+| Chart | [🟢](https://ui.shadcn.com/docs/components/chart) | ❌ |
 | Checkbox | [🟢](https://ui.shadcn.com/docs/components/checkbox) | [🟢](https://www.shadcn-svelte.com/docs/components/checkbox) |
 | Collapsible | [🟢](https://ui.shadcn.com/docs/components/collapsible) | [🟢](https://www.shadcn-svelte.com/docs/components/collapsible) |
 | Combobox | [🟢](https://ui.shadcn.com/docs/components/combobox) | [🟢](https://www.shadcn-svelte.com/docs/components/combobox) |
@@ -80,6 +81,7 @@ Jump to table:
 | Calendar | [🟢](https://ui.shadcn.com/docs/components/calendar) | [🟢](https://www.shadcn-svelte.com/docs/components/calendar) | [🟢](https://www.bits-ui.com/docs/components/calendar) | [🟢](https://melt-ui.com/docs/builders/calendar) |
 | Card | [🟢](https://ui.shadcn.com/docs/components/card) | [🟢](https://www.shadcn-svelte.com/docs/components/card) | ❌ | ❌ |
 | Carousel | [🟢](https://ui.shadcn.com/docs/components/carousel) | [🟢](https://www.shadcn-svelte.com/docs/components/carousel) | ❌ | ❌ |
+| Chart | [🟢](https://ui.shadcn.com/docs/components/chart) | ❌ | ❌ | ❌ |
 | Checkbox | [🟢](https://ui.shadcn.com/docs/components/checkbox) | [🟢](https://www.shadcn-svelte.com/docs/components/checkbox) | [🟢](https://www.bits-ui.com/docs/components/checkbox) | [🟢](https://melt-ui.com/docs/builders/checkbox) |
 | Collapsible | [🟢](https://ui.shadcn.com/docs/components/collapsible) | [🟢](https://www.shadcn-svelte.com/docs/components/collapsible) | [🟢](https://www.bits-ui.com/docs/components/collapsible) | [🟢](https://melt-ui.com/docs/builders/collapsible) |
 | Combobox | [🟢](https://ui.shadcn.com/docs/components/combobox) | [🟢](https://www.shadcn-svelte.com/docs/components/combobox) | [🟢](https://www.bits-ui.com/docs/components/combobox) | [🟢](https://melt-ui.com/docs/builders/combobox) |
