@@ -16,7 +16,7 @@ jobs:
       - uses: oven-sh/setup-bun@v1
       - run: bun install
       - name: Run script to fetch data and update README.md
-        run: bun index.js
+        run: bun src/index.js
       - name: Commit changes to README.md
         uses: EndBug/add-and-commit@v9
         with:

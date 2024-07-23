@@ -2,48 +2,54 @@ import cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
 
-// Function to fetch HTML and extract components, now accepts a URL as a string parameter
+// Fetch HTML, extract component names and URLs, and return an array of objects
+// with `name` and `url` properties.
 export async function fetchAndExtractComponents(url, regex) {
   try {
-    // Fetch the HTML content from the URL
     const response = await fetch(url);
     const body = await response.text();
 
-    // Load the HTML content into cheerio
     const $ = cheerio.load(body);
 
     // Select all anchor tags inside the specified section
     const componentAnchors = $(regex ? regex : "div.pb-4:nth-of-type(2) a");
 
-    // Map through each anchor tag and construct an object with the name and url
+    // Map through each anchor tag and construct an object with the name and url.
+    // `.get()` converts cheerio object to a plain array.
     const components = componentAnchors
       .map((i, anchor) => ({
-        name: $(anchor).text().replace("New", "").replace("Updated", "").trim(), // Get the text and trim whitespace
+        name: $(anchor).text().replace("New", "").replace("Updated", "").trim(),
         url: new URL(url).origin + $(anchor).attr("href"),
       }))
-      .get(); // Use .get() to convert cheerio object to a plain array
+      .get();
 
+    console.log("components", components);
     return components;
   } catch (error) {
     console.error("An error occurred:", error);
-    return []; // Return an empty array in case of an error
+    return [];
   }
 }
 
+// Capitalize the first letter of each word
+function capitalizeFirstLetter(string) {
+  return string.replace(/\b\w/g, (l) => l.toUpperCase());
+}
+
 export function mergeResultArrays(arrays, libNames) {
-  // Combine all unique names from all arrays
-  const allNames = new Set(arrays.flat().map((item) => item.name));
+  // Combine all unique component names from all result arrays.
+  const allNames = new Set(
+    arrays.flat().map((item) => capitalizeFirstLetter(item.name))
+  );
 
   const mergedArray = Array.from(allNames)
     .sort()
     .map((name) => {
-      // Initialize libUrls object for the current component
       const libUrls = {};
 
       arrays.forEach((array, index) => {
         const item = array.find((item) => item.name === name);
-        // Use the provided libNames for keys in libUrls
-        const libraryKey = libNames[index];
+        const libraryKey = capitalizeFirstLetter(libNames[index]);
         libUrls[libraryKey] = item ? item.url : "";
       });
 
