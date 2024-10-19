@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2024-10-18T00:24:12.583Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2024-10-19T00:23:50.808Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -69,6 +69,7 @@ Jump to table:
 | Select | [🟢](https://ui.shadcn.com/docs/components/select) | [🟢](https://www.shadcn-svelte.com/docs/components/select) |
 | Separator | [🟢](https://ui.shadcn.com/docs/components/separator) | [🟢](https://www.shadcn-svelte.com/docs/components/separator) |
 | Sheet | [🟢](https://ui.shadcn.com/docs/components/sheet) | [🟢](https://www.shadcn-svelte.com/docs/components/sheet) |
+| Sidebar | [🟢](https://ui.shadcn.com/docs/components/sidebar) | ❌ |
 | Skeleton | [🟢](https://ui.shadcn.com/docs/components/skeleton) | [🟢](https://www.shadcn-svelte.com/docs/components/skeleton) |
 | Slider | [🟢](https://ui.shadcn.com/docs/components/slider) | [🟢](https://www.shadcn-svelte.com/docs/components/slider) |
 | Sonner | [🟢](https://ui.shadcn.com/docs/components/sonner) | [🟢](https://www.shadcn-svelte.com/docs/components/sonner) |
@@ -145,6 +146,7 @@ Jump to table:
 | Select | [🟢](https://ui.shadcn.com/docs/components/select) | [🟢](https://www.shadcn-svelte.com/docs/components/select) | [🟢](https://www.bits-ui.com/docs/components/select) | [🟢](https://melt-ui.com/docs/builders/select) |
 | Separator | [🟢](https://ui.shadcn.com/docs/components/separator) | [🟢](https://www.shadcn-svelte.com/docs/components/separator) | [🟢](https://www.bits-ui.com/docs/components/separator) | [🟢](https://melt-ui.com/docs/builders/separator) |
 | Sheet | [🟢](https://ui.shadcn.com/docs/components/sheet) | [🟢](https://www.shadcn-svelte.com/docs/components/sheet) | ❌ | ❌ |
+| Sidebar | [🟢](https://ui.shadcn.com/docs/components/sidebar) | ❌ | ❌ | ❌ |
 | Skeleton | [🟢](https://ui.shadcn.com/docs/components/skeleton) | [🟢](https://www.shadcn-svelte.com/docs/components/skeleton) | ❌ | ❌ |
 | Slider | [🟢](https://ui.shadcn.com/docs/components/slider) | [🟢](https://www.shadcn-svelte.com/docs/components/slider) | [🟢](https://www.bits-ui.com/docs/components/slider) | [🟢](https://melt-ui.com/docs/builders/slider) |
 | Sonner | [🟢](https://ui.shadcn.com/docs/components/sonner) | [🟢](https://www.shadcn-svelte.com/docs/components/sonner) | ❌ | ❌ |
