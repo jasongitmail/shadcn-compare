@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-01-28T00:24:21.371Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-01-29T00:24:08.327Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -44,9 +44,11 @@ Jump to table:
 | Dialog | [🟢](https://ui.shadcn.com/docs/components/dialog) | [🟢](https://www.shadcn-svelte.com/docs/components/dialog) |
 | Drawer | [🟢](https://ui.shadcn.com/docs/components/drawer) | [🟢](https://www.shadcn-svelte.com/docs/components/drawer) |
 | Dropdown Menu | [🟢](https://ui.shadcn.com/docs/components/dropdown-menu) | [🟢](https://www.shadcn-svelte.com/docs/components/dropdown-menu) |
+| FAQ | [🟢](https://ui.shadcn.com/docs/registry/faq) | ❌ |
 | Figma | [🟢](https://ui.shadcn.com/docs/figma) | ❌ |
 | Form | [🟢](https://ui.shadcn.com/docs/components/form) | [🟢](https://www.shadcn-svelte.com/docs/components/form) |
 | Gatsby | [🟢](https://ui.shadcn.com/docs/installation/gatsby) | ❌ |
+| Getting Started | [🟢](https://ui.shadcn.com/docs/registry/getting-started) | ❌ |
 | Hover Card | [🟢](https://ui.shadcn.com/docs/components/hover-card) | [🟢](https://www.shadcn-svelte.com/docs/components/hover-card) |
 | Input | [🟢](https://ui.shadcn.com/docs/components/input) | [🟢](https://www.shadcn-svelte.com/docs/components/input) |
 | Input OTP | [🟢](https://ui.shadcn.com/docs/components/input-otp) | ❌ |
@@ -66,6 +68,8 @@ Jump to table:
 | Progress | [🟢](https://ui.shadcn.com/docs/components/progress) | [🟢](https://www.shadcn-svelte.com/docs/components/progress) |
 | Radio Group | [🟢](https://ui.shadcn.com/docs/components/radio-group) | [🟢](https://www.shadcn-svelte.com/docs/components/radio-group) |
 | Range Calendar | ❌ | [🟢](https://www.shadcn-svelte.com/docs/components/range-calendar) |
+| Registry-Item.Json | ❌ | ❌ |
+| Registry.Json | ❌ | ❌ |
 | Remix | [🟢](https://ui.shadcn.com/docs/installation/remix) | ❌ |
 | Resizable | [🟢](https://ui.shadcn.com/docs/components/resizable) | [🟢](https://www.shadcn-svelte.com/docs/components/resizable) |
 | Scroll Area | [🟢](https://ui.shadcn.com/docs/components/scroll-area) | [🟢](https://www.shadcn-svelte.com/docs/components/scroll-area) |
@@ -122,9 +126,11 @@ Jump to table:
 | Dialog | [🟢](https://ui.shadcn.com/docs/components/dialog) | [🟢](https://www.shadcn-svelte.com/docs/components/dialog) | [🟢](https://www.bits-ui.com/docs/components/dialog) | [🟢](https://melt-ui.com/docs/builders/dialog) |
 | Drawer | [🟢](https://ui.shadcn.com/docs/components/drawer) | [🟢](https://www.shadcn-svelte.com/docs/components/drawer) | ❌ | ❌ |
 | Dropdown Menu | [🟢](https://ui.shadcn.com/docs/components/dropdown-menu) | [🟢](https://www.shadcn-svelte.com/docs/components/dropdown-menu) | [🟢](https://www.bits-ui.com/docs/components/dropdown-menu) | [🟢](https://melt-ui.com/docs/builders/dropdown-menu) |
+| FAQ | [🟢](https://ui.shadcn.com/docs/registry/faq) | ❌ | ❌ | ❌ |
 | Figma | [🟢](https://ui.shadcn.com/docs/figma) | ❌ | ❌ | ❌ |
 | Form | [🟢](https://ui.shadcn.com/docs/components/form) | [🟢](https://www.shadcn-svelte.com/docs/components/form) | ❌ | ❌ |
 | Gatsby | [🟢](https://ui.shadcn.com/docs/installation/gatsby) | ❌ | ❌ | ❌ |
+| Getting Started | [🟢](https://ui.shadcn.com/docs/registry/getting-started) | ❌ | ❌ | ❌ |
 | Hover Card | [🟢](https://ui.shadcn.com/docs/components/hover-card) | [🟢](https://www.shadcn-svelte.com/docs/components/hover-card) | ❌ | ❌ |
 | Input | [🟢](https://ui.shadcn.com/docs/components/input) | [🟢](https://www.shadcn-svelte.com/docs/components/input) | ❌ | ❌ |
 | Input OTP | [🟢](https://ui.shadcn.com/docs/components/input-otp) | ❌ | ❌ | ❌ |
@@ -146,6 +152,8 @@ Jump to table:
 | Progress | [🟢](https://ui.shadcn.com/docs/components/progress) | [🟢](https://www.shadcn-svelte.com/docs/components/progress) | [🟢](https://www.bits-ui.com/docs/components/progress) | [🟢](https://melt-ui.com/docs/builders/progress) |
 | Radio Group | [🟢](https://ui.shadcn.com/docs/components/radio-group) | [🟢](https://www.shadcn-svelte.com/docs/components/radio-group) | [🟢](https://www.bits-ui.com/docs/components/radio-group) | [🟢](https://melt-ui.com/docs/builders/radio-group) |
 | Range Calendar | ❌ | [🟢](https://www.shadcn-svelte.com/docs/components/range-calendar) | [🟢](https://www.bits-ui.com/docs/components/range-calendar) | [🟢](https://melt-ui.com/docs/builders/range-calendar) |
+| Registry-Item.Json | ❌ | ❌ | ❌ | ❌ |
+| Registry.Json | ❌ | ❌ | ❌ | ❌ |
 | Remix | [🟢](https://ui.shadcn.com/docs/installation/remix) | ❌ | ❌ | ❌ |
 | Resizable | [🟢](https://ui.shadcn.com/docs/components/resizable) | [🟢](https://www.shadcn-svelte.com/docs/components/resizable) | ❌ | ❌ |
 | Scroll Area | [🟢](https://ui.shadcn.com/docs/components/scroll-area) | [🟢](https://www.shadcn-svelte.com/docs/components/scroll-area) | [🟢](https://www.bits-ui.com/docs/components/scroll-area) | [🟢](https://melt-ui.com/docs/builders/scroll-area) |
