@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-02-06T00:24:50.504Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-02-07T00:24:33.210Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -83,6 +83,7 @@ Jump to table:
 | Switch | [🟢](https://ui.shadcn.com/docs/components/switch) | [🟢](https://www.shadcn-svelte.com/docs/components/switch) |
 | Table | [🟢](https://ui.shadcn.com/docs/components/table) | [🟢](https://www.shadcn-svelte.com/docs/components/table) |
 | Tabs | [🟢](https://ui.shadcn.com/docs/components/tabs) | [🟢](https://www.shadcn-svelte.com/docs/components/tabs) |
+| Tanstack Start | [🟢](https://ui.shadcn.com/docs/installation/tanstack) | ❌ |
 | Textarea | [🟢](https://ui.shadcn.com/docs/components/textarea) | [🟢](https://www.shadcn-svelte.com/docs/components/textarea) |
 | Theming | [🟢](https://ui.shadcn.com/docs/theming) | ❌ |
 | Toast | [🟢](https://ui.shadcn.com/docs/components/toast) | ❌ |
@@ -169,6 +170,7 @@ Jump to table:
 | Table Of Contents | ❌ | ❌ | ❌ | [🟢](https://melt-ui.com/docs/builders/table-of-contents) |
 | Tabs | [🟢](https://ui.shadcn.com/docs/components/tabs) | [🟢](https://www.shadcn-svelte.com/docs/components/tabs) | [🟢](https://www.bits-ui.com/docs/components/tabs) | [🟢](https://melt-ui.com/docs/builders/tabs) |
 | Tags Input | ❌ | ❌ | ❌ | [🟢](https://melt-ui.com/docs/builders/tags-input) |
+| Tanstack Start | [🟢](https://ui.shadcn.com/docs/installation/tanstack) | ❌ | ❌ | ❌ |
 | Textarea | [🟢](https://ui.shadcn.com/docs/components/textarea) | [🟢](https://www.shadcn-svelte.com/docs/components/textarea) | ❌ | ❌ |
 | Theming | [🟢](https://ui.shadcn.com/docs/theming) | ❌ | ❌ | ❌ |
 | Toast | [🟢](https://ui.shadcn.com/docs/components/toast) | ❌ | ❌ | [🟢](https://melt-ui.com/docs/builders/toast) |
