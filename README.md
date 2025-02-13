@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-02-12T00:24:30.847Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-02-13T00:24:34.089Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -115,7 +115,7 @@ Jump to table:
 | Checkbox | [🟢](https://ui.shadcn.com/docs/components/checkbox) | [🟢](https://www.shadcn-svelte.com/docs/components/checkbox) | [🟢](https://www.bits-ui.com/docs/components/checkbox) | [🟢](https://melt-ui.com/docs/builders/checkbox) |
 | Collapsible | [🟢](https://ui.shadcn.com/docs/components/collapsible) | [🟢](https://www.shadcn-svelte.com/docs/components/collapsible) | [🟢](https://www.bits-ui.com/docs/components/collapsible) | [🟢](https://melt-ui.com/docs/builders/collapsible) |
 | Combobox | [🟢](https://ui.shadcn.com/docs/components/combobox) | [🟢](https://www.shadcn-svelte.com/docs/components/combobox) | [🟢](https://www.bits-ui.com/docs/components/combobox) | [🟢](https://melt-ui.com/docs/builders/combobox) |
-| Command | [🟢](https://ui.shadcn.com/docs/components/command) | [🟢](https://www.shadcn-svelte.com/docs/components/command) | ❌ | ❌ |
+| Command | [🟢](https://ui.shadcn.com/docs/components/command) | [🟢](https://www.shadcn-svelte.com/docs/components/command) | [🟢](https://www.bits-ui.com/docs/components/command) | ❌ |
 | Components.Json | ❌ | ❌ | ❌ | ❌ |
 | Context Menu | [🟢](https://ui.shadcn.com/docs/components/context-menu) | [🟢](https://www.shadcn-svelte.com/docs/components/context-menu) | [🟢](https://www.bits-ui.com/docs/components/context-menu) | [🟢](https://melt-ui.com/docs/builders/context-menu) |
 | Dark Mode | ❌ | ❌ | ❌ | ❌ |
@@ -143,7 +143,7 @@ Jump to table:
 | Manual | [🟢](https://ui.shadcn.com/docs/installation/manual) | ❌ | ❌ | ❌ |
 | Menubar | [🟢](https://ui.shadcn.com/docs/components/menubar) | [🟢](https://www.shadcn-svelte.com/docs/components/menubar) | [🟢](https://www.bits-ui.com/docs/components/menubar) | [🟢](https://melt-ui.com/docs/builders/menubar) |
 | Monorepo | [🟢](https://ui.shadcn.com/docs/monorepo) | ❌ | ❌ | ❌ |
-| Navigation Menu | [🟢](https://ui.shadcn.com/docs/components/navigation-menu) | ❌ | ❌ | ❌ |
+| Navigation Menu | [🟢](https://ui.shadcn.com/docs/components/navigation-menu) | ❌ | [🟢](https://www.bits-ui.com/docs/components/navigation-menu) | ❌ |
 | Next.Js | ❌ | ❌ | ❌ | ❌ |
 | Open In V0 | ❌ | ❌ | ❌ | ❌ |
 | PIN Input | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/pin-input) | ❌ |
