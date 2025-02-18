@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-02-17T00:26:21.096Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-02-18T00:24:33.479Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -143,6 +143,7 @@ Jump to table:
 | Link Preview | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/link-preview) | [🟢](https://melt-ui.com/docs/builders/link-preview) |
 | Manual | [🟢](https://ui.shadcn.com/docs/installation/manual) | ❌ | ❌ | ❌ |
 | Menubar | [🟢](https://ui.shadcn.com/docs/components/menubar) | [🟢](https://www.shadcn-svelte.com/docs/components/menubar) | [🟢](https://www.bits-ui.com/docs/components/menubar) | [🟢](https://melt-ui.com/docs/builders/menubar) |
+| Meter | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/meter) | ❌ |
 | Monorepo | [🟢](https://ui.shadcn.com/docs/monorepo) | ❌ | ❌ | ❌ |
 | Navigation Menu | [🟢](https://ui.shadcn.com/docs/components/navigation-menu) | ❌ | [🟢](https://www.bits-ui.com/docs/components/navigation-menu) | ❌ |
 | Next.Js | ❌ | ❌ | ❌ | ❌ |
