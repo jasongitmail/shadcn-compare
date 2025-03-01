@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-02-28T00:25:19.582Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-03-01T00:27:53.869Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -47,7 +47,6 @@ Jump to table:
 | FAQ | [🟢](https://ui.shadcn.com/docs/registry/faq) | ❌ |
 | Figma | [🟢](https://ui.shadcn.com/docs/figma) | ❌ |
 | Form | [🟢](https://ui.shadcn.com/docs/components/form) | [🟢](https://www.shadcn-svelte.com/docs/components/form) |
-| Gatsby | [🟢](https://ui.shadcn.com/docs/installation/gatsby) | ❌ |
 | Getting Started | [🟢](https://ui.shadcn.com/docs/registry/getting-started) | ❌ |
 | Hover Card | [🟢](https://ui.shadcn.com/docs/components/hover-card) | [🟢](https://www.shadcn-svelte.com/docs/components/hover-card) |
 | Input | [🟢](https://ui.shadcn.com/docs/components/input) | [🟢](https://www.shadcn-svelte.com/docs/components/input) |
@@ -68,6 +67,7 @@ Jump to table:
 | Progress | [🟢](https://ui.shadcn.com/docs/components/progress) | [🟢](https://www.shadcn-svelte.com/docs/components/progress) |
 | Radio Group | [🟢](https://ui.shadcn.com/docs/components/radio-group) | [🟢](https://www.shadcn-svelte.com/docs/components/radio-group) |
 | Range Calendar | ❌ | [🟢](https://www.shadcn-svelte.com/docs/components/range-calendar) |
+| React Router | [🟢](https://ui.shadcn.com/docs/installation/react-router) | ❌ |
 | Registry-Item.Json | ❌ | ❌ |
 | Registry.Json | ❌ | ❌ |
 | Remix | [🟢](https://ui.shadcn.com/docs/installation/remix) | ❌ |
@@ -131,7 +131,6 @@ Jump to table:
 | FAQ | [🟢](https://ui.shadcn.com/docs/registry/faq) | ❌ | ❌ | ❌ |
 | Figma | [🟢](https://ui.shadcn.com/docs/figma) | ❌ | ❌ | ❌ |
 | Form | [🟢](https://ui.shadcn.com/docs/components/form) | [🟢](https://www.shadcn-svelte.com/docs/components/form) | ❌ | ❌ |
-| Gatsby | [🟢](https://ui.shadcn.com/docs/installation/gatsby) | ❌ | ❌ | ❌ |
 | Getting Started | [🟢](https://ui.shadcn.com/docs/registry/getting-started) | ❌ | ❌ | ❌ |
 | Hover Card | [🟢](https://ui.shadcn.com/docs/components/hover-card) | [🟢](https://www.shadcn-svelte.com/docs/components/hover-card) | ❌ | ❌ |
 | Input | [🟢](https://ui.shadcn.com/docs/components/input) | [🟢](https://www.shadcn-svelte.com/docs/components/input) | ❌ | ❌ |
@@ -155,6 +154,7 @@ Jump to table:
 | Progress | [🟢](https://ui.shadcn.com/docs/components/progress) | [🟢](https://www.shadcn-svelte.com/docs/components/progress) | [🟢](https://www.bits-ui.com/docs/components/progress) | [🟢](https://melt-ui.com/docs/builders/progress) |
 | Radio Group | [🟢](https://ui.shadcn.com/docs/components/radio-group) | [🟢](https://www.shadcn-svelte.com/docs/components/radio-group) | [🟢](https://www.bits-ui.com/docs/components/radio-group) | [🟢](https://melt-ui.com/docs/builders/radio-group) |
 | Range Calendar | ❌ | [🟢](https://www.shadcn-svelte.com/docs/components/range-calendar) | [🟢](https://www.bits-ui.com/docs/components/range-calendar) | [🟢](https://melt-ui.com/docs/builders/range-calendar) |
+| React Router | [🟢](https://ui.shadcn.com/docs/installation/react-router) | ❌ | ❌ | ❌ |
 | Registry-Item.Json | ❌ | ❌ | ❌ | ❌ |
 | Registry.Json | ❌ | ❌ | ❌ | ❌ |
 | Remix | [🟢](https://ui.shadcn.com/docs/installation/remix) | ❌ | ❌ | ❌ |
