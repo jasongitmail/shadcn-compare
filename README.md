@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-03-24T00:27:36.205Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-03-25T00:26:41.703Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -84,6 +84,7 @@ Jump to table:
 | Table | [🟢](https://ui.shadcn.com/docs/components/table) | [🟢](https://www.shadcn-svelte.com/docs/components/table) |
 | Tabs | [🟢](https://ui.shadcn.com/docs/components/tabs) | [🟢](https://www.shadcn-svelte.com/docs/components/tabs) |
 | Tailwind V4 | ❌ | ❌ |
+| Tanstack Router | [🟢](https://ui.shadcn.com/docs/installation/tanstack-router) | ❌ |
 | Tanstack Start | [🟢](https://ui.shadcn.com/docs/installation/tanstack) | ❌ |
 | Textarea | [🟢](https://ui.shadcn.com/docs/components/textarea) | [🟢](https://www.shadcn-svelte.com/docs/components/textarea) |
 | Theming | [🟢](https://ui.shadcn.com/docs/theming) | ❌ |
@@ -173,6 +174,7 @@ Jump to table:
 | Tabs | [🟢](https://ui.shadcn.com/docs/components/tabs) | [🟢](https://www.shadcn-svelte.com/docs/components/tabs) | [🟢](https://www.bits-ui.com/docs/components/tabs) | [🟢](https://melt-ui.com/docs/builders/tabs) |
 | Tags Input | ❌ | ❌ | ❌ | [🟢](https://melt-ui.com/docs/builders/tags-input) |
 | Tailwind V4 | ❌ | ❌ | ❌ | ❌ |
+| Tanstack Router | [🟢](https://ui.shadcn.com/docs/installation/tanstack-router) | ❌ | ❌ | ❌ |
 | Tanstack Start | [🟢](https://ui.shadcn.com/docs/installation/tanstack) | ❌ | ❌ | ❌ |
 | Textarea | [🟢](https://ui.shadcn.com/docs/components/textarea) | [🟢](https://www.shadcn-svelte.com/docs/components/textarea) | ❌ | ❌ |
 | Theming | [🟢](https://ui.shadcn.com/docs/theming) | ❌ | ❌ | ❌ |
