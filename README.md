@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-03-28T00:26:17.050Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-03-29T00:26:20.716Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -44,6 +44,7 @@ Jump to table:
 | Dialog | [🟢](https://ui.shadcn.com/docs/components/dialog) | [🟢](https://www.shadcn-svelte.com/docs/components/dialog) |
 | Drawer | [🟢](https://ui.shadcn.com/docs/components/drawer) | [🟢](https://www.shadcn-svelte.com/docs/components/drawer) |
 | Dropdown Menu | [🟢](https://ui.shadcn.com/docs/components/dropdown-menu) | [🟢](https://www.shadcn-svelte.com/docs/components/dropdown-menu) |
+| Examples | [🟢](https://ui.shadcn.com/docs/registry/examples) | ❌ |
 | FAQ | [🟢](https://ui.shadcn.com/docs/registry/faq) | ❌ |
 | Figma | [🟢](https://ui.shadcn.com/docs/figma) | ❌ |
 | Form | [🟢](https://ui.shadcn.com/docs/components/form) | [🟢](https://www.shadcn-svelte.com/docs/components/form) |
@@ -129,6 +130,7 @@ Jump to table:
 | Dialog | [🟢](https://ui.shadcn.com/docs/components/dialog) | [🟢](https://www.shadcn-svelte.com/docs/components/dialog) | [🟢](https://www.bits-ui.com/docs/components/dialog) | [🟢](https://melt-ui.com/docs/builders/dialog) |
 | Drawer | [🟢](https://ui.shadcn.com/docs/components/drawer) | [🟢](https://www.shadcn-svelte.com/docs/components/drawer) | ❌ | ❌ |
 | Dropdown Menu | [🟢](https://ui.shadcn.com/docs/components/dropdown-menu) | [🟢](https://www.shadcn-svelte.com/docs/components/dropdown-menu) | [🟢](https://www.bits-ui.com/docs/components/dropdown-menu) | [🟢](https://melt-ui.com/docs/builders/dropdown-menu) |
+| Examples | [🟢](https://ui.shadcn.com/docs/registry/examples) | ❌ | ❌ | ❌ |
 | FAQ | [🟢](https://ui.shadcn.com/docs/registry/faq) | ❌ | ❌ | ❌ |
 | Figma | [🟢](https://ui.shadcn.com/docs/figma) | ❌ | ❌ | ❌ |
 | Form | [🟢](https://ui.shadcn.com/docs/components/form) | [🟢](https://www.shadcn-svelte.com/docs/components/form) | ❌ | ❌ |
