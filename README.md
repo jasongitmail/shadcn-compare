@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-05-26T00:29:43.850Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-05-27T00:28:04.343Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -180,6 +180,8 @@ Jump to table:
 | Tanstack Start | [🟢](https://ui.shadcn.com/docs/installation/tanstack) | ❌ | ❌ | ❌ |
 | Textarea | [🟢](https://ui.shadcn.com/docs/components/textarea) | [🟢](https://www.shadcn-svelte.com/docs/components/textarea) | ❌ | ❌ |
 | Theming | [🟢](https://ui.shadcn.com/docs/theming) | ❌ | ❌ | ❌ |
+| Time Field | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/time-field) | ❌ |
+| Time Range Field | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/time-range-field) | ❌ |
 | Toast | [🟢](https://ui.shadcn.com/docs/components/toast) | ❌ | ❌ | [🟢](https://melt-ui.com/docs/builders/toast) |
 | Toggle | [🟢](https://ui.shadcn.com/docs/components/toggle) | [🟢](https://www.shadcn-svelte.com/docs/components/toggle) | [🟢](https://www.bits-ui.com/docs/components/toggle) | [🟢](https://melt-ui.com/docs/builders/toggle) |
 | Toggle Group | [🟢](https://ui.shadcn.com/docs/components/toggle-group) | [🟢](https://www.shadcn-svelte.com/docs/components/toggle-group) | [🟢](https://www.bits-ui.com/docs/components/toggle-group) | [🟢](https://melt-ui.com/docs/builders/toggle-group) |
