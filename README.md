@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-05-29T00:28:36.132Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-05-30T00:28:39.144Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -157,6 +157,7 @@ Jump to table:
 | Progress | [🟢](https://ui.shadcn.com/docs/components/progress) | [🟢](https://www.shadcn-svelte.com/docs/components/progress) | [🟢](https://www.bits-ui.com/docs/components/progress) | [🟢](https://melt-ui.com/docs/builders/progress) |
 | Radio Group | [🟢](https://ui.shadcn.com/docs/components/radio-group) | [🟢](https://www.shadcn-svelte.com/docs/components/radio-group) | [🟢](https://www.bits-ui.com/docs/components/radio-group) | [🟢](https://melt-ui.com/docs/builders/radio-group) |
 | Range Calendar | ❌ | [🟢](https://www.shadcn-svelte.com/docs/components/range-calendar) | [🟢](https://www.bits-ui.com/docs/components/range-calendar) | [🟢](https://melt-ui.com/docs/builders/range-calendar) |
+| Rating Group Preview | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/rating-group) | ❌ |
 | React Router | [🟢](https://ui.shadcn.com/docs/installation/react-router) | ❌ | ❌ | ❌ |
 | Registry-Item.Json | ❌ | ❌ | ❌ | ❌ |
 | Registry.Json | ❌ | ❌ | ❌ | ❌ |
