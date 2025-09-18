@@ -6,7 +6,7 @@ Compares UI components available in:
 - [bits-ui](https://www.bits-ui.com/docs/components)
 - [melt-ui](https://melt-ui.com/docs/builders/accordion)
 
-Last updated: 2025-09-17T00:26:36.457Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
+Last updated: 2025-09-18T00:25:57.208Z. Updates checked daily via [cron.yml](https://github.com/jasongitmail/shadcn-compare/actions/workflows/cron.yml).
 
 Jump to table:
 - [Shadcn](#shadcn)
@@ -48,7 +48,7 @@ Jump to table:
 | Progress | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/progress) | [🟢](https://melt-ui.com/docs/builders/progress) |
 | Radio Group | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/radio-group) | [🟢](https://melt-ui.com/docs/builders/radio-group) |
 | Range Calendar | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/range-calendar) | [🟢](https://melt-ui.com/docs/builders/range-calendar) |
-| Rating Group Preview | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/rating-group) | ❌ |
+| Rating Group | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/rating-group) | ❌ |
 | Scroll Area | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/scroll-area) | [🟢](https://melt-ui.com/docs/builders/scroll-area) |
 | Select | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/select) | [🟢](https://melt-ui.com/docs/builders/select) |
 | Separator | ❌ | ❌ | [🟢](https://www.bits-ui.com/docs/components/separator) | [🟢](https://melt-ui.com/docs/builders/separator) |
